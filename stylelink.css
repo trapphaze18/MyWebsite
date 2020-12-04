@@ -1,0 +1,84 @@
+/*Website Styles*/
+.banner {
+  background-image: url(images/unsplash.jpg);
+  height: 300px;
+  background-position: center;
+  border: 10px solid white;
+}
+
+body {
+  font-family: trebuchet ms, tahoma;
+  font-size: 20px;
+  background-image: url(images/cushion.png);
+  color: goldenrod;
+}
+
+header h1 {
+  font-family: nerko one;
+  font-size: 100px;
+  color: white;
+  padding: 25px;
+  text-align: left;
+}
+
+header p {
+  text-align: right;
+}
+
+img {
+  border: 6px solid goldenrod;
+}
+
+.container {
+  text-align: center;
+  border: 10px solid white;
+  padding-top: 25px;
+  margin: 30px;
+  width: 40%;
+  text-align: center;
+  font-family: trebuchet ms;
+  color: goldenrod;
+}
+
+.container1 {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 40% 40%;
+  align-items: start;
+  padding-top: 5%;
+}
+
+.container2 {
+  padding-left: 10%;
+}
+
+.description {
+  display: goldenrod;
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+  font-size: 20px;
+  text-align: center;
+}
+
+.container3 {
+  text-align: center;
+  padding-top: 13%;
+  font-size:90px;
+}
+
+a:link,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: goldenrod;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
+}
