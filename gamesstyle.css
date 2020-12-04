@@ -35,3 +35,18 @@ header h1 {
   padding: 25px;
   text-align: left;
 }
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 40% 40%;
+  align-items: start;
+  padding-top: 5%;
+}
+
+.container3 {
+  text-align: center;
+  padding-top: 13%;
+  font-size:90px;
+}
