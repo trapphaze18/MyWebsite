@@ -23,20 +23,21 @@ img {
 }
 
 .container1 {
-  padding-left: 200px;
-  margin: 100px;
+  padding-left: 100px;
+  margin: 10px auto;
 }
 
 .container2 {
   display: grid;
   grid-template-columns: 20% 20% 20%;
-  padding-left: 500px;
+  padding-left: 400px;
+  margin: auto;
 }
 
 .container3 {
   display: grid;
   grid-template-columns: 20% 20% 20%;
-  padding-left: 500px;
+  padding-left: 400px;
 }
 
 header {
@@ -47,7 +48,7 @@ header {
 
 header h1 {
   font-family: nerko one;
-  font-size: 200px;
+  font-size: 165px;
   color: goldenrod;
   padding: 25px;
 }
